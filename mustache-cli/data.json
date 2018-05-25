@@ -1,7 +1,6 @@
 {
-	"sitename":"RRB Online registration",
-	"description":"Online registration by Railway Recruitment Board",
+	"sitename":"Website title here",
+	"description":"Description for your website",
 	"year":"2018",
 	"primarycolor":"#F89",
-	"headermenu":[{"name":"Home","link":"index.html"},{"name":"About","link":"about.html"},{"name":"Contact","link":"contact.html"}]
 }
