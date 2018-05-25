@@ -1,0 +1,33 @@
+{
+	"sitename":"RRB Online registration",
+	"description":"Online registration by Railway Recruitment Board",
+	"year":"2018",
+	"primarycolor":"#F89",
+	"headermenu":[{"name":"Home","link":"index.html"},{"name":"About","link":"about.html"},{"name":"Contact","link":"contact.html"}],
+"about":"false"
+}<!doctype html>
+<html lang='en'>
+<head>
+	<meta charset='utf-8'>
+	<title>{{sitename}} - {{year}}</title>
+	<meta name='description' content='{{description}}'>
+	<meta name='' content=''>
+	<meta name=viewport content='width=device-width, initial-scale=1'>
+	<!-- <link rel='stylesheet' type='text/css' href='css/styles.css?v=1.0'> -->
+	<script>
+		data.active="About";
+	</script>
+</head>
+<body>
+	{{active}}
+	{{> header}}
+
+	<h3>About Us</h3>
+	{{sitename}} is a Government Organization.
+
+	<!-- <script type='text/javascript' src='js/scripts.js'></script> -->
+	{{> footer}}
+
+	<footer>Copyright @ {{year}}</footer>
+</body>
+</html>
